@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 350px;
+    height: 400px;
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container1 {
+    width: 350px;
+    height: 400px;
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container2 {
+    width: 350px;
+    height: 400px;
+    border: 2px solid #F2F2F2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-tri img {
+    width: 10rem;
+}
+
+.input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #6a6a6a;
+}
+
+#res {
+    display: none;
+    margin-top: 5px;
+}
+
+.input-div input {
+    border-radius: 2px;
+    background-color: #F2F2F2;
+    padding: 5px;
+    width: 100px;
+    margin: 10px;
+}
+
+#button1 {
+    background-color: rgb(88, 88, 233);
+    border-radius: 5px;
+    width: 80%;
+    padding: 12px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#button2 {
+    background-color: rgb(88, 88, 233);
+    border-radius: 5px;
+    width: 80%;
+    padding: 12px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#button3 {
+    background-color: rgb(88, 88, 233);
+    border-radius: 5px;
+    width: 80%;
+    padding: 12px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.right {
+    margin-left: 40px;
+}

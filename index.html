@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <div id="container" onmouseover="changeBG(this)">
+                <div class="img-tri">
+                    <img src="triangle.png">
+                </div>
+                <h2>Triangle</h2>
+                <p>Area (A) = 0.5 x b x h</p>
+                <div class="input-div">
+                    <div class="input-1">
+                        <input id="b" type="number" placeholder="b">
+                        <p>cm</p>
+                    </div>
+                    <div class="input-2">
+                        <input id="h" type="number" placeholder="h">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div id="button1">Calcuilate</div>
+            </div>
+            <div id="container1" onmouseover="changeBG1(this)">
+                <div class=" img-tri">
+                    <img src="pngwinc.png">
+                </div>
+                <h2>Triangle</h2>
+                <p>Area (A) = 0.5 x b x h</p>
+                <div class="input-div">
+                    <div class="input-1">
+                        <input id="w" type="number" placeholder="w">
+                        <p>cm</p>
+                    </div>
+                    <div class="input-2">
+                        <input id="i" type="number" placeholder="i">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div id="button2">Calcuilate</div>
+            </div>
+            <div id="container2" onmouseover="changeBG2(this)">
+                <div class="img-tri">
+                    <img src="rer.png">
+                </div>
+                <h2>Parallelogram</h2>
+                <p>Area (A) = b x h</p>
+                <div class="input-div">
+                    <div class="input-1">
+                        <input id="bb" type="number" placeholder="b">
+                        <p>cm</p>
+                    </div>
+                    <div class="input-2">
+                        <input id="hh" type="number" placeholder="h">
+                        <p>cm</p>
+                    </div>
+                </div>
+                <div id="button3">Calcuilate</div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div id="container1">
+                <h3>Area Calculation</h3>
+                <ol id="result">
+                </ol>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
